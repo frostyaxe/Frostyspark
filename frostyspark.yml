@@ -1,8 +1,9 @@
 --- 
 frostyspark: 
   webdriver: 
-      browser: chrome 
-      path: "/usr/bin/chromedriver"
+      browser: firefox 
+      #path: "C:/Users/Sangeeta-Laptop/Downloads/chromedriver_win32 (4)/chromedriver.exe"
+      path: "/usr/bin/geckodriver"
 #      useRemoteDriver: 
 #        host: localhost
 #       port: 4444
