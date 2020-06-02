@@ -1,1 +1,1 @@
-webdriver.chrome.driver = /driver/chromedriver.exe
+webdriver.chrome.driver = /usr/bin/chromedriver

@@ -118,48 +118,4 @@ public class FrostyFactory
 	
 	
 	
-/*	
-		
-	public static void initElements(Object page)
-	{
-		
-
-		Field[] fields = page.getClass().getDeclaredFields();
-		
-		Arrays.asList(fields).forEach(field ->{
-				
-			field.setAccessible(true);
-			
-			    if (field.isAnnotationPresent(SearchWith.class)) 
-			    {
-			    	
-			    	
-			    	if( field.getType().equals(String.class) )
-			    	{
-				    	SearchWith fAnno = field.getAnnotation(SearchWith.class);
-				    	
-				        
-				        	field.setAccessible(true);
-				        	try 
-				        	{
-								field.set(page, "Abhishek");
-							} 
-				        	catch (IllegalArgumentException | IllegalAccessException e) 
-				        	{
-								// TODO Auto-generated catch block
-								e.printStackTrace();
-							}
-			    	}
-			    	else
-			    	{
-			    		System.err.println( field.getName() + " is not declared with the type as WebElement!");
-			    	}
-			    }
-			
-			
-			
-		});
-		
-	}*/
-	
 }

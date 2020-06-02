@@ -271,7 +271,7 @@ public class DockerUtils
 		DockerUtils dockerUtils = new DockerUtils();
 		DockerClient client = dockerUtils.getDockerClient( dockerUtils.getDefaultConfg() );
 		//dockerUtils.buildImage(client, System.getProperty("user.dir") + "/Dockerfile", "ubuntu:1.0");
-		dockerUtils. displayLog(client, dockerUtils.getCreateContainerCmd(client, "ubuntu:1.0", "test").exec().getId() );
+		dockerUtils. displayLog(client, dockerUtils.getCreateContainerCmd(client, "maven:v1.0", "test").exec().getId() );
 	}
 
 	
