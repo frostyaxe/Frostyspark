@@ -1,0 +1,8 @@
+--- 
+frostyspark: 
+  webdriver: 
+      browser: chrome 
+      path: "C:/Users/Sangeeta-Laptop/Downloads/chromedriver_win32 (4)/chromedriver.exe"
+#      useRemoteDriver: 
+#        host: localhost
+#       port: 4444
